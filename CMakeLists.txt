@@ -6,4 +6,5 @@ include_directories("${PROJECT_SOURCE_DIR}/googleTestAPI/include")
 add_subdirectory(googleTestAPI)
 add_executable(unitTestProject Source.cpp)
 
-target_link_libraries(unitTestProject googleTestAPI)
+target_link_libraries(unitTestProject googleTestAPI/GoogleTestProject.lib)
+set_target_properties(googleTestAPI PROPERTIES LINKER_LANGUAGE CXX)
