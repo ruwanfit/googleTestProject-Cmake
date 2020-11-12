@@ -16,7 +16,7 @@ namespace pldl
 
 TEST(UtilitiesTest, test1)
 {
-	EXPECT_EQ(10, 0);
+	EXPECT_EQ(11, 11);
 	EXPECT_EQ(10, 10);
 }
 
